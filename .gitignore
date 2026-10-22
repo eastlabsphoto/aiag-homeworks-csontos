@@ -1,0 +1,13 @@
+# --- TAJNÉ: súbory s API kľúčmi nikdy nesmú ísť na GitHub ---
+# Pravidlo platí pre .env v ktoromkoľvek priečinku.
+.env
+# Výnimka: .env.example je len šablóna bez kľúča, tá na GitHub ísť má.
+!.env.example
+
+# --- Python odpad, ktorý sa vytvára sám ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- macOS odpad ---
+.DS_Store
